@@ -1,0 +1,265 @@
+body{
+	background-color: lightgray;
+}
+.slika{
+	width:100%;
+	height:60%;
+}
+.slika2{
+	width:200px;
+	height:70px;
+	float:left;
+	animation-name:slika2;
+	animation-duration: 10s;
+	position: relative;
+}
+.slika3{
+	float:left;
+}
+.auto{
+	width:100%;
+	height:280px;
+	margin-top:100px;
+	text-align: center;
+	font-size: 30px;
+	font-family:sans-serif;
+	background-color: white;
+}
+.moto{
+	width:100%;
+	height:280px;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-family:sans-serif;
+	background-color: white;
+}
+h1{
+	text-align:center;
+	font-size: 40px;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+.tekst{
+	font-size: 20px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+ul{
+	background-color: black;
+	margin-top: 2px;
+	text-align: right;
+	height: 30px;
+	padding: 20px 0px 20px 0px;
+}
+li{
+	display:inline;
+	padding: 20px 30px 20px 30px;
+	font-size:25px;
+}
+a{
+	text-decoration: none;
+	color:white;
+	padding: 10px;
+
+}
+li a:hover {
+  background-color: red;
+}
+input[type="submit"]{
+	padding:10px;
+	margin:10px;
+	background:black;
+	background-color:rgba(255,255,255,0.8);
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	border-radius:10px;
+	box-shadow:0px 5px 5px 2px;
+	margin-top: 80px;
+}
+input[type="submit"]:hover{
+  background:red;
+}
+input[type="reset"]{
+	padding:10px;
+	margin:10px;
+	background:black;
+	background-color:rgba(255,255,255,0.8);
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	border-radius:10px;
+	box-shadow:0px 5px 5px 2px;
+	margin-top: 80px;
+}
+input[type="reset"]:hover{
+  background:red;
+}
+input[type="text"]{
+	width:50%;
+	margin-bottom:20px;
+	height:50px;
+	border-radius:20px;
+}
+textarea{
+	margin-top:30px;
+}
+footer{
+	background-color: black;
+	color:white;
+	margin-top: 50px;
+	text-align: center;
+	padding: 20px 30px;
+}
+.istorija1{
+	background-color: white;
+	font-size: 15px;
+	font-family:sans-serif;
+	text-align:center;
+	line-height: 1.6;
+
+}
+.istorija2{
+	font-size: 15px;
+	font-family:sans-serif;
+	text-align:center;
+	line-height: 1.6;
+
+}
+.slika4{
+	width:550px;
+	height:311px;
+	float:right;
+}
+.slika5{
+	float:left;
+	height:385px;
+}
+.slika6{
+	float:right;
+	width:400px;
+	height:300px;
+}
+@keyframes slika2{
+	0%{left:0px;}
+	25%{left:100px;}
+	50%{left:0px;}
+	75%{left:100px;}
+	100%{left:0px;}
+}
+fieldset{
+	background:linear-gradient(to right,lightgray ,red);
+  margin-left:auto;
+  margin-right:auto;
+	width:50%;
+}
+form{
+	position:relative;
+	text-align:center;
+}
+.padajucimeni{
+     z-index:1000;
+     position:absolute;
+	 top:0%;
+	 display:none;
+     width:325px;
+     right:15px;
+}
+#ham{
+	position:absolute;
+	z-index:1001;
+	top:2%;
+	right:30px;
+	display:none;
+	width:56px;
+	height:8%;
+}
+.padajucimeni a{
+	background-color:black;
+	color:white;
+	position:relative;
+	text-align:center;
+	padding:30px 11px;
+	right: 15px;
+}
+.button{
+	display:block;
+	position:absolute;
+}
+#ham:hover + .padajucimeni {display:block;}
+.padajucimeni:hover{display:block;}
+@media only screen and (max-width: 1000px) {
+  ul{
+    display: block;
+  }
+  #ham{
+  	display:block;
+  	margin-top: 350px;
+  	background-color:black;
+  }
+  .padajucimeni{
+  	margin-top: 400px;
+  	width: 200px;
+  	height: 20px;
+  	background-color:black;
+  }
+  .button{
+  	width: 200px;
+  	height: 20px;
+  	background-color:black;
+  }
+  li{
+  	display: none;
+  }
+a{
+    display: none;
+}
+  .slika2{
+	width:250px;
+	height:70px;
+}
+
+  fieldset{
+	width: 200px;
+	height: 650px;
+}
+@keyframes slika2{
+	0%{left:0px;}
+	25%{left:0px;}
+	50%{left:0px;}
+	75%{left:0px;}
+	100%{left:0px;}
+	}
+}
+#auto2{
+	margin-top: 20px;
+	font-size: 15px;
+	font-family:sans-serif;
+	text-align:center;
+	line-height: 1.6;
+}
+#auto{
+	margin-top: 20px;
+	font-size: 15px;
+	font-family:sans-serif;
+	text-align:center;
+	line-height: 1.6;
+}
+#auto1{
+	margin-top: 20px;
+	font-size: 15px;
+	font-family:sans-serif;
+	text-align:center;
+	line-height: 1.6;
+	background-color: white;
+}
+.naslovi{
+	color:red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.tekst{
+	font-weight: bold;
+	font-size: 18px;
+}
