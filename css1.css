@@ -149,7 +149,7 @@ footer{
 	100%{left:0px;}
 }
 fieldset{
-	background:linear-gradient(to right,lightgray ,red);
+	background:linear-gradient(to right,lightgray ,black);
   margin-left:auto;
   margin-right:auto;
 	width:50%;
